@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+    background-color: #ede6d3;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+
+}
+
+nav {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    height: 50px;
+    background-color: #827a6f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #f9f5f2;
+    font-size: 16px;
+  }
+
+#app {
+  padding: 20px;
+}
+
+.hero {
+  height: 500px;
+  width: 70%;
+  background-image: url(../images/hero1.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.photo-container {
+  height: auto;
+  width: auto;
+  /* background-color: cornflowerblue; */
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.booking-button {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background-color: #827a6f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: #f9f5f2;
+  border-radius: 30px;
+  margin: 50px auto;
+  border: none;
+}
+
+ h1 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 210px;
+}
+
+.menu {
+  height: 600px;
+  width: 70%;
+  background-image: url(../images/menu.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: -20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ .two-images {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  /* background-color: darkkhaki; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 50px;
+}
+
+ .drink {
+  width: 250px;
+  height: 250px;
+  /* background-color: chocolate; */
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.buffet-bar {
+  width: 250px;
+  height: 250px;
+}
+
+span {
+  display: flex;
+  position: relative;
+  font-size: 20px;
+}
+
+ h3 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  margin-left: 250px;
+}
+
+.reservation-form {
+  width: 896px; /* 70% of 1280px */
+  max-width: 100%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #f9f5f2;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(139, 30, 30, 0.1);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.reservation-form label {
+  font-weight: bold;
+  color: #616d63;
+  font-size: 14px;
+}
+
+.reservation-form input,
+ .reservation-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.reservation-form button {
+  padding: 12px;
+  background-color: #d2ac97;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: gray; */
+  margin-top: 50px;
+   margin-bottom: 70px; 
+}
+
+ .address {
+  height: 300px;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.address ul {
+  margin-bottom: 20px;
+}
+
+.threepics{
+    width: 80%;
+    /* background-color: darkcyan; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+ footer {
+  background-color: #d2ac97;
+  color: white;
+  max-width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-content {
+  padding: 0 20px;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 960px) {
+  .hero {
+    width: 100%;
+  }
+   .photo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  h1, h3 {
+    margin-left: 0;
+  }
+   .menu {
+    width: 100%;
+  }
+   .two-images {
+    flex-direction: column;
+    align-items: center;
+  }
+   .drink, .buffet-bar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+   .contact {
+    flex-direction: column;
+  }
+   .map iframe {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  
+  .threepics{
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+    align-items: center;
+  }
+}
+
